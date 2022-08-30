@@ -1,0 +1,137 @@
+.f_js_as {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.f_js_ac {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.f_js_ab{
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.f_jc_as{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.f_jc_ac{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_jc_ae{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.f_ja_as{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.f_ja_ac {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.f_jb_as{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.f_jb_ac {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f_je_ac {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.f_c{
+  display: flex;
+  flex-direction: column;
+}
+
+.f_c_js_ac{
+  @extend .f_c;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.f_c_js_as {
+  @extend .f_c;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.f_c_js_ae{
+  @extend .f_c;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.f_c_jc_as {
+  @extend .f_c;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.f_c_jc_ac{
+  @extend .f_c;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_c_jc_ae {
+  @extend .f_c;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.f_c_jb_ac{
+  @extend  .f_c;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f_c_jb_as {
+  @extend .f_c;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.f_c_ja_as{
+  @extend .f_c;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.f_c_ja_ac{
+  @extend .f_c;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.f_c_je_as {
+  @extend .f_c;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
