@@ -2,10 +2,9 @@ import {a} from "@react-spring/web";
 
 export function preprocessImage(canvas: any) {
     const imageData = canvas.getContext('2d').getImageData(0,0,canvas.width, canvas.height);
-    blurARGB(imageData.data, canvas, 1);
-    // dilate(imageData.data, canvas);
-    // invertColors(imageData.data);
-    // thresholdFilter(imageData.data, 0.5);
+    // blurARGB(imageData.data, canvas, 1);
+    thresholdFilter(imageData.data, 0.85);
+    invertColors(imageData.data);
     return imageData;
 }
 // 二值化
